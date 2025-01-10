@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import ProductCard from './Components/ProductCard.jsx';
 import DealOfTheDayCard from './Components/DealOfTheDayCard.jsx';
+import BlogCard from './Components/BlogCard.jsx';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <BrowserRouter>
                 <ProductCard />
                 <DealOfTheDayCard />
+                <BlogCard />
             </BrowserRouter>
         </div>
     );
